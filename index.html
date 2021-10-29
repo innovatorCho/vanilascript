@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
 </head>
 <body>
-  <h1>Hello</h1>
-</body>
+    <h1 id="clock" class="clock"></h1>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="login-div">
+        <form id="login-form" class="hidden">
+            <input type="text" placeholder="Enter your name" required/>
+            <input type="submit" value="Login" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>  
+    </div>  
+    <div id="todo-div">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <h2 id="dday"></h2>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/backgrouds.js"></script>
+  <!--
+          
+    <script src="js/d-day.js"></script>
+     
+  
+    
+-->
 </html>
